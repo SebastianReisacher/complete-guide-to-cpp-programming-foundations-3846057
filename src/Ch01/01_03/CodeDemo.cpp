@@ -1,6 +1,6 @@
 // Complete Guide to C++ Programming Foundations
-// Exercise 01_02
-// Hello World, by Eduardo Corpeño 
+// Exercise 01_03
+// Text-Input; ReisacherSebastian
 
 #include <iostream>
 #include <string>
@@ -13,6 +13,6 @@ int main()
 
     std::cout << std::endl << std::endl;
     std::cout << "Your name is " << name << '.' << std::endl;
-    
+
     return 0;
 }
