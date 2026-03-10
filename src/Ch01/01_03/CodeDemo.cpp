@@ -8,7 +8,7 @@
 int main()
 {
     std::string name;
-    std::cout << "Please enter your name: ";
+    std::cout << "Please enter your name: " <<std::flush;       //std::flush ensure that text is sent to terminal before the next line is printed
     std::cin >> name;
 
     std::cout << std::endl << std::endl;
